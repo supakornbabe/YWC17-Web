@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/supakornbabe/YWC17-Web.svg?token=WCzhGfL12TD82ycCgvVi&branch=master)](https://travis-ci.com/supakornbabe/YWC17-Web)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
