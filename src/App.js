@@ -48,3 +48,7 @@ class App extends Component {
 }
 
 export default App;
+
+//Todo: create unit test for each function
+//Todo: fix .travis.yml to test before build
+//Todo: fix font in web to use TAT font
