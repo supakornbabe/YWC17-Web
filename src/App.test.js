@@ -10,5 +10,5 @@ it('renders without crashing', () => {
 
 it('should pass the simple test', () => {
   const a =1;
-  expect(a).toBe(1)
+  expect(a).toBe(2)
 });
