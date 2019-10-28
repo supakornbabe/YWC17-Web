@@ -18,7 +18,7 @@ class Register extends Component {
                 <div className="since">ตั้งแต่วันที่</div>
               </div>
               <div className="col-12">
-                <div className="time">27 ก.ย. - 31 ธ.ค. 62</div>
+                <div className="time">{this.props.data.duration}</div>
               </div>
               <div className="col-12"><a href="https://regist.xn--b3caa1e2a7e2b0h2be.com/Register/" >
                 <button className="btn register">คงเหลือสิทธิลงทะเบียน เฟส 2<br />

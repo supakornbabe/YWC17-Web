@@ -41,9 +41,9 @@ class Header extends Component {
                 onClick={this.triggerAnimation}
               >
                 <div className={this.state.class}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                  <span/>
+                  <span/>
+                  <span/>
                 </div>
 
               </button>
@@ -51,9 +51,11 @@ class Header extends Component {
               <div className="collapse navbar-collapse" id="navbarSupportedContent20">
 
                 <ul className="navbar-nav mr-auto">
-                  <li className="nav-item"><a className="nav-link" href="https://regist.xn--b3caa1e2a7e2b0h2be.com/Register/" >ลงทะเบียนเข้าร่วมมาตรการ</a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www2.xn--b3caa1e2a7e2b0h2be.com/howto-register" >ขั้นตอนการเข้าร่วม</a></li>
-                  <li className="nav-item"><a className="nav-link" href="https://www2.xn--b3caa1e2a7e2b0h2be.com/thung-ngern-shop-province" >ร้านค้าที่เข้าร่วม</a></li>
+                  {this.props.data.navbarItems.map(item => {
+                    return (
+                      <li className="nav-item"><a className="nav-link" href={item.href} >{item.label}</a></li>
+                    )
+                  })}
                 </ul>
 
               </div>
@@ -82,9 +84,11 @@ class Header extends Component {
             <div className="row">
               <div className="col-12">
                 <ul className="header-links">
-                  <li><a href="https://regist.xn--b3caa1e2a7e2b0h2be.com/Register/">ลงทะเบียนเข้าร่วมมาตรการ</a></li>
-                  <li><a href="https://www2.xn--b3caa1e2a7e2b0h2be.com/howto-register" >ขั้นตอนการเข้าร่วม</a></li>
-                  <li><a href="https://www2.xn--b3caa1e2a7e2b0h2be.com/thung-ngern-shop-province" >ร้านค้าที่เข้าร่วม</a></li>
+                  {this.props.data.navbarItems.map(item => {
+                    return (
+                      <li><a href={item.href} >{item.label}</a></li>
+                    )
+                  })}
                 </ul>
               </div>
             </div>

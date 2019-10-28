@@ -8,7 +8,26 @@ class Footer extends Component {
     }
   }
 
+  navBarItemsFooter =
+    this.props.data.navbarItems.map(item => {
+      return (
+        <li
+          className="col-sm-4 col-md-4 col-lg-4 nav-item"
+        >
+          <a
+            className="nav-link"
+            href={item.href}
+          >
+            {item.label}
+          </a>
+        </li>
+      )
+    })
+
+
+
   render() {
+    console.log(this.props.data)
     return (
       <div>
         <footer>
@@ -42,9 +61,15 @@ class Footer extends Component {
                 </div>
                 <div className="row col-sm-12 col-md-9 col-lg-9">
                   <ul className="nav col-sm-12">
-                    <li className="col-sm-4 col-md-4 col-lg-4 nav-item"><a className="nav-link" href="https://regist.xn--b3caa1e2a7e2b0h2be.com/Register/" >ลงทะเบียนเข้าร่วมมาตรการ</a></li>
-                    <li className="col-sm-4 col-md-4 col-lg-4 nav-item"><a className="nav-link" href="https://www2.xn--b3caa1e2a7e2b0h2be.com/howto-register" >ขั้นตอนการเข้าร่วมทั้งหมด</a></li>
-                    <li className="col-sm-4 col-md-4 col-lg-4 nav-item"><a className="nav-link" href="https://www2.xn--b3caa1e2a7e2b0h2be.com/thung-ngern-shop-province" >รายชื่อร้านค้าที่เข้าร่วมรายการ</a></li>
+                    {this.props.data.navbarItems.map(item => {
+                      return (
+                        <li className="col-sm-4 col-md-4 col-lg-4 nav-item">
+                          <a className="nav-link" href={item.href} >
+                            {item.label}
+                          </a>
+                        </li>
+                      )
+                    })}
                   </ul>
                 </div>
               </div>
