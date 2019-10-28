@@ -12,6 +12,7 @@ before_script:
 cache:
   directories:
   - node_modules
+  - build
 
 jobs:
   include:
@@ -20,6 +21,7 @@ jobs:
     - stage: build
       script: npm run build
     - stage: deploy
+      script: npm run build
       deploy:
         provider: pages
         skip_cleanup: true
