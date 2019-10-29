@@ -5,17 +5,12 @@ class Header extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      isOpen: false,
-      class: "animated-icon1"
+      isOpen: false
     }
-    this.triggerAnimation = this.triggerAnimation.bind(this)
   }
 
   triggerAnimation = () => {
-    if (!this.state.isOpen)
-      this.setState({ class: "animated-icon1 open", isOpen: !this.state.isOpen })
-    else
-      this.setState({ class: "animated-icon1", isOpen: !this.state.isOpen })
+    this.setState({ isOpen: !this.state.isOpen })
   }
 
   render() {
@@ -40,10 +35,10 @@ class Header extends Component {
                 aria-label="Toggle navigation"
                 onClick={this.triggerAnimation}
               >
-                <div className={this.state.class}>
-                  <span/>
-                  <span/>
-                  <span/>
+                <div className={this.state.isOpen ? "animated-icon1 open" : "animated-icon1"}>
+                  <span />
+                  <span />
+                  <span />
                 </div>
 
               </button>
