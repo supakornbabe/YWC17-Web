@@ -4,33 +4,21 @@
     color: red;
 }
 
-/* @font-face {
-    font-family: 'Chonburi';
-    src: url('./fonts/Chonburi/Chonburi-Regular.ttf') format('truetype'), url('./fonts/Chonburi/chonburi-regular-webfont.ttf') format('truetype'), url('./fonts/Chonburi/chonburi-regular-webfont.eot?#iefix') format('embedded-opentype'), url('./fonts/Chonburi/chonburi-regular-webfont.woff2') format('woff2'), url('./fonts/Chonburi/chonburi-regular-webfont.woff') format('woff'), url('./fonts/Chonburi/chonburi-regular-webfont.svg#Chonburi') format('svg');
-    font-weight: normal;
-    font-style: normal;
-} */
-/* 
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap&subset=thai');
+
 @font-face {
     font-family: "TATSanaChon";
-    src: url('./fonts/TAT/TATSANA CHON-REG.TTF');
-    src: url('./fonts/TAT/TATSanaChon-Regular.eot');
-    src: url('./fonts/TAT/TATSanaChon-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/TAT/TATSanaChon-Regular.woff2') format('woff2'), url('./fonts/TAT/TATSanaChon-Regular.woff') format('woff');
+    src:  url('./fonts/TAT/TATSanaChon-Regular.woff2') format('woff2');
 }
 
 @font-face {
     font-family: "TATSanaSuksa";
-    src: url('./fonts/TAT/TATSANA SUKSA-REG.TTF');
-    src: url('./fonts/TAT/TATSanaSuksa-Regular.eot');
-    src: url('./fonts/TAT/TATSanaSuksa-Regular.eot?#iefix') format('embedded-opentype'), url('./fonts/TAT/TATSanaSuksa-Regular.woff2') format('woff2'), url('./fonts/TAT/TATSanaSuksa-Regular.woff') format('woff');
+    src:  url('./fonts/TAT/TATSanaSuksa-Regular.woff2') format('woff2');
 }
-
 @font-face {
     font-family: "TATSanaSuksaBold";
-    src: url('./fonts/TAT/TATSANA CHON-BLD.TTF');
-    src: url('./fonts/TAT/TATSanaChon-Bold.eot');
-    src: url('./fonts/TAT/TATSanaChon-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/TAT/TATSanaChon-Bold.woff2') format('woff2'), url('./fonts/TAT/TATSanaChon-Bold.woff') format('woff');
-} */
+    src:  url('./fonts/TAT/TATSanaChon-Bold.woff2') format('woff2');
+} 
 
 /* home */
 body {
