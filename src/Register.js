@@ -15,7 +15,7 @@ class Register extends Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
-                <div className="since">ตั้งแต่วันที่ NEWNEWNEWNEW</div>
+                <div className="since">ตั้งแต่วันที่</div>
               </div>
               <div className="col-12">
                 <div className="time">{this.props.data.duration}</div>
