@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 
 class Sponsor extends Component {
   constructor(props) {

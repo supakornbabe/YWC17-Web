@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Banner = () => {
   return (
