@@ -18,9 +18,6 @@ cache:
 jobs:
   include:
     - stage: test
-      os:
-        - linux
-        - osx
       script: npm run test
     - stage: deploy
       script: npm run build
