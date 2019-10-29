@@ -33,15 +33,16 @@ class App extends Component {
   }
 
   render() {
+    let data = this.state.data;
     return (
       <div>
-        <Header data={this.state.data} />
+        <Header data={data} />
         <Banner />
-        <Register data={this.state.data} />
-        <Detail data={this.state.data} />
+        <Register data={data} />
+        <Detail data={data} />
         <Download />
         <Sponsor />
-        <Footer data={this.state.data} />
+        <Footer data={data} />
       </div>
     );
   }
