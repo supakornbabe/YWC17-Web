@@ -1,24 +1,27 @@
 import React from 'react';
 import './App.css';
+import { Container, Row, Col } from 'reactstrap';
 
-export const Banner = () => {
+const Banner = () => {
   return (
-
     <div className="banner">
-      <div className="row no-gutters">
-        <div className="col-4 cover-img-1"></div>
-        <div className="col-4 cover-img-2">
-          <div className="row h-100 justify-content-center align-items-center">
-            <div className="col-12">
+      <Row noGutters={true}>
+        <Col className="cover-img-1" />
+
+        <Col className="cover-img-2" >
+          <Row className="h-100 justify-content-center align-items-center">
+            <Col xs="12">
               <div className="logo-box">
                 <img src={require("./img/logo/banner.png")} alt="banner" />
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-4 cover-img-3"></div>
-      </div>
-    </div>
+            </Col>
+          </Row>
+        </Col>
 
+        <Col className="cover-img-3" />
+      </Row>
+    </div>
   );
 }
+
+export default Banner;
