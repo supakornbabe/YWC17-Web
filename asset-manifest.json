@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/YWC17-Web/static/css/main.641bab84.chunk.css",
+    "main.js": "/YWC17-Web/static/js/main.383e94fc.chunk.js",
+    "main.js.map": "/YWC17-Web/static/js/main.383e94fc.chunk.js.map",
+    "runtime-main.js": "/YWC17-Web/static/js/runtime-main.0c562df3.js",
+    "runtime-main.js.map": "/YWC17-Web/static/js/runtime-main.0c562df3.js.map",
+    "static/js/2.c3440187.chunk.js": "/YWC17-Web/static/js/2.c3440187.chunk.js",
+    "static/js/2.c3440187.chunk.js.map": "/YWC17-Web/static/js/2.c3440187.chunk.js.map",
+    "index.html": "/YWC17-Web/index.html",
+    "precache-manifest.58dda32c23dbc1f084df33030bd13221.js": "/YWC17-Web/precache-manifest.58dda32c23dbc1f084df33030bd13221.js",
+    "service-worker.js": "/YWC17-Web/service-worker.js",
+    "static/css/main.641bab84.chunk.css.map": "/YWC17-Web/static/css/main.641bab84.chunk.css.map",
+    "static/media/Banner_CGD_Sq.png": "/YWC17-Web/static/media/Banner_CGD_Sq.6c42699d.png",
+    "static/media/Banner_KTB_SQ.png": "/YWC17-Web/static/media/Banner_KTB_SQ.ed683f12.png",
+    "static/media/Banner_TAT_Hotline_Sq.png": "/YWC17-Web/static/media/Banner_TAT_Hotline_Sq.1b47ec36.png",
+    "static/media/CGD.png": "/YWC17-Web/static/media/CGD.093f4f57.png",
+    "static/media/FPO.png": "/YWC17-Web/static/media/FPO.34f69a5b.png",
+    "static/media/Krungthai.png": "/YWC17-Web/static/media/Krungthai.8b71f26b.png",
+    "static/media/MOF.png": "/YWC17-Web/static/media/MOF.398d843b.png",
+    "static/media/MOTS.png": "/YWC17-Web/static/media/MOTS.09477969.png",
+    "static/media/TAT.png": "/YWC17-Web/static/media/TAT.2529bd05.png",
+    "static/media/App.scss": "/YWC17-Web/static/media/TATSanaSuksa-Regular.f51f1b81.woff2",
+    "static/media/Banner.scss": "/YWC17-Web/static/media/banner-right.b28170f0.png",
+    "static/media/banner.png": "/YWC17-Web/static/media/banner.0b9c7c9c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c562df3.js",
+    "static/js/2.c3440187.chunk.js",
+    "static/css/main.641bab84.chunk.css",
+    "static/js/main.383e94fc.chunk.js"
+  ]
+}
