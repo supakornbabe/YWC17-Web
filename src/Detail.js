@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Detail.scss';
 import DOMPurify from 'dompurify'
 import { Container, Row, Col } from 'reactstrap';
 

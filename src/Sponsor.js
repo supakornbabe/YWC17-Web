@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Sponsor.scss';
 import { Container, Row } from 'reactstrap';
 
 class Sponsor extends Component {

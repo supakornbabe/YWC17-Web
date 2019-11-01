@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Register.scss';
 import { Container, Row, Col } from 'reactstrap';
 
 class Register extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Header.scss';
 import { Container, Row, Col } from 'reactstrap';
 
 class Header extends Component {

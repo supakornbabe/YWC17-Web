@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi&display=swap&subset=thai');
+
+@font-face {
+    font-family: "TATSanaChon";
+    src:  url('./fonts/TAT/TATSanaChon-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "TATSanaSuksa";
+    src:  url('./fonts/TAT/TATSanaSuksa-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: "TATSanaSuksaBold";
+    src:  url('./fonts/TAT/TATSanaChon-Bold.woff2') format('woff2');
+} 
+
+/* home */
+body {
+    font-family: 'TATSanaSuksa';
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.8;
+}
+
+@media (max-width: 577px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Footer.scss';
 import { Container, Row, Col } from 'reactstrap';
 
 class Footer extends Component {
@@ -41,7 +41,7 @@ class Footer extends Component {
               <Col sm="12" md="3" lg="3">
                 <div className="copyright">Copyright © 2003-2019</div>
               </Col>
-              <Row sm="12" md="9" lg="9">
+              <div class="row col-sm-12 col-md-9 col-lg-9">
                 <ul className="nav col-sm-12">
                   {this.props.data.navbarItems.map(item => {
                     return (
@@ -53,7 +53,7 @@ class Footer extends Component {
                     )
                   })}
                 </ul>
-              </Row>
+              </div>
             </Row>
           </Container>
         </div>

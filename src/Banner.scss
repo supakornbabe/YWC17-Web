@@ -1,0 +1,87 @@
+.banner {
+    padding-top: 60px;
+
+    .cover-img-1 {
+        background: url(./img/hero_banner/banner-left.png) no-repeat;
+    }
+
+    @media (max-width: 577px) {
+        .cover-img-1 {
+            background: url(./img/hero_banner/banner-left-s.png) no-repeat;
+        }
+    }
+
+    .cover-img-2 {
+        background: url(./img/hero_banner/banner-center.png) no-repeat;
+
+        .logo-box {
+            padding: 20px;
+            width: 280px;
+            margin: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        @media (max-width: 769px) {
+            .logo-box {
+                width: 146px;
+                height: 173px;
+            }
+        }
+
+        @media (max-width: 577px) {
+            .logo-box {
+                width: 110px;
+                height: 131px;
+                padding: 0;
+            }
+        }
+    }
+
+    @media (max-width: 577px) {
+        .cover-img-2 {
+            background: url(./img/hero_banner/banner-center-s.png) no-repeat;
+        }
+    }
+
+    .cover-img-3 {
+        background: url(./img/hero_banner/banner-right.png) no-repeat;
+    }
+
+    @media (max-width: 577px) {
+        .cover-img-3 {
+            background: url(./img/hero_banner/banner-right-s.png) no-repeat;
+        }
+    }
+
+    .cover-img-1,
+    .cover-img-2,
+    .cover-img-3 {
+        height: 350px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    @media (max-width: 769px) {
+
+        .cover-img-1,
+        .cover-img-2,
+        .cover-img-3 {
+            height: 242px;
+        }
+    }
+
+    @media (max-width: 577px) {
+
+        .cover-img-1,
+        .cover-img-2,
+        .cover-img-3 {
+            height: 221px;
+        }
+    }
+}

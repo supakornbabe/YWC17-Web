@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Banner.scss';
 import { Row, Col } from 'reactstrap';
 
 const Banner = () => {

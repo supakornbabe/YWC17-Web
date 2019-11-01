@@ -1,0 +1,26 @@
+.box-ktc {
+    margin: 100px 0px;
+
+    img {
+        width: 102px;
+
+    }
+
+    @media (max-width: 577px) {
+        img {
+            width: 56px;
+        }
+    }
+
+    img:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: all 0.55s ease-in-out;
+    }
+}
+
+@media (max-width: 577px) {
+    .box-ktc {
+        margin: 80px 0px;
+    }
+}

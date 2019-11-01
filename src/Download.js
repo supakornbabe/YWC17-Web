@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Download.scss';
 import { Container, Row, Col } from 'reactstrap';
 
 class Download extends Component {
