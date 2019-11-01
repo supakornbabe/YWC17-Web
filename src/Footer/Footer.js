@@ -10,7 +10,6 @@ class Footer extends Component {
   }
 
   render() {
-    console.log(this.props.data)
     return (
       <footer>
         <div className="footer-1" style={{ position: "relative" }}>
