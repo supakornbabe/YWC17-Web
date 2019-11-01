@@ -35,5 +35,9 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://supakornbabe.github.io/YWC17-Web"
+  "homepage": "https://supakornbabe.github.io/YWC17-Web",
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1"
+  }
 }
