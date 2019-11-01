@@ -12,7 +12,7 @@ const Banner = () => {
           <Row className="h-100 justify-content-center align-items-center">
             <Col xs="12">
               <div className="logo-box">
-                <img src={require("./img/logo/banner.png")} alt="banner" />
+                <img src={require("../Static/img/logo/banner.png")} alt="banner" />
               </div>
             </Col>
           </Row>

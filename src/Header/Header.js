@@ -20,7 +20,7 @@ class Header extends Component {
         <div className="header-link-mobile">
           <nav className="navbar navbar-light amber lighten-4">
             <a className="navbar-brand" href="/">
-              <img src={require("./img/logo/footer.png")} alt="logo"></img>
+              <img src={require("../Static/img/logo/footer.png")} alt="logo"></img>
             </a>
             <button className="navbar-toggler first-button"
               type="button"

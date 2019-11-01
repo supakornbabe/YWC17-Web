@@ -16,7 +16,7 @@ class Footer extends Component {
         <div className="footer-1" style={{ position: "relative" }}>
           <Container>
             <Row>
-              <Col md="3" sm="12"><img className="logo" src={require("./img/logo/footer.png")} alt="Footer" /></Col>
+              <Col md="3" sm="12"><img className="logo" src={require("../Static/img/logo/footer.png")} alt="Footer" /></Col>
               <Col md="3" sm="4" xs="12">
                 <div className="head">ข้อมูลลงทะเบียนประชาชน</div>
                 <div className="detail">การรับสิทธิ การใช้งานแอปพลิเคชั่น <span className="nowrap">“เป๋าตัง”</span> และ <span className="nowrap">“ถุงเงิน”</span></div>

@@ -14,9 +14,9 @@ class Download extends Component {
       <div className="box-tat">
         <Container>
           <Row>
-            <Col sm="12" md="4"><a href="tel:021111144"><img src={require("./img/Banner_KTB_SQ.png")} alt='ktb' /></a></Col>
-            <Col sm="12" md="4"><a href="tel:022706400"><img src={require("./img/Banner_CGD_Sq.png")} alt='cgd' /></a></Col>
-            <Col sm="12" md="4"><a href="tel:1672"><img src={require("./img/Banner_TAT_Hotline_Sq.png")} alt='hotline' /></a></Col>
+            <Col sm="12" md="4"><a href="tel:021111144"><img src={require("../Static/img/Banner_KTB_SQ.png")} alt='ktb' /></a></Col>
+            <Col sm="12" md="4"><a href="tel:022706400"><img src={require("../Static/img/Banner_CGD_Sq.png")} alt='cgd' /></a></Col>
+            <Col sm="12" md="4"><a href="tel:1672"><img src={require("../Static/img/Banner_TAT_Hotline_Sq.png")} alt='hotline' /></a></Col>
           </Row>
         </Container>
       </div>

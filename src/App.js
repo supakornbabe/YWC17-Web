@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Banner from './Banner'
-import Header from './Header'
-import Register from './Register'
-import Detail from './Detail'
-import Download from './Download'
-import Sponsor from './Sponsor'
-import Footer from './Footer'
+import Banner from './Banner/Banner'
+import Header from './Header/Header'
+import Register from './Register/Register'
+import Detail from './Detail/Detail'
+import Download from './Download/Download'
+import Sponsor from './Sponsor/Sponsor'
+import Footer from './Footer/Footer'
 import axios from 'axios'
 
 class App extends Component {
